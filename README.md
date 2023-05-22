@@ -1,10 +1,10 @@
-# WeightedStatsCalculator
+# sample-statistics
 
-The WeightedStatsCalculator class is a tool for storing samples and calculating their weighted statistics. It calculates and stores the following statistics measures: weighted mean, weighted standard deviation, and standard error of the mean, for a set of weighted data points. 
+The sample-statistics provides the WeightedStatsCalculator class for storing samples and calculating their weighted statistics. It calculates and stores the following statistics measures: weighted mean, weighted standard deviation, and standard error of the mean, for a set of weighted data points. 
 
 ## Installation
 
-The WeightedStatsCalculator can be installed using pip:
+The package can be installed using pip:
 
 ```
 pip install sample-statistics
@@ -14,10 +14,10 @@ The package is tested on Python 3.7, 3.8, 3.9 and 3.11.
 
 ## Getting started
 
-To use the WeightedStatsCalculator, you first need to create an instance of the WeightedStatsCalculator class. You can do this by importing the library and calling the constructor:
+Once installed, you first need to create an instance of the WeightedStatsCalculator class. You can do this by importing the library and calling the constructor:
 
 ```
-from sample_statistics import WeightedStatsCalculator
+from sample_statistics.main import WeightedStatsCalculator
 
 wsc = WeightedStatsCalculator()
 ```
