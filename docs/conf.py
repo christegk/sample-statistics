@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 import os
 import sys
-sys.path.insert(0, '/home/chris/dd1327/homework7/cteg-ovn7')
+#sys.path.insert(0, '/home/chris/dd1327/homework7/cteg-ovn7')
 
 project = 'WeightedStatsCalculator'
 copyright = '2023, Christos Tegkelidis'
@@ -28,3 +28,5 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'build']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+sys.path.insert(0, os.path.abspath('..'))
