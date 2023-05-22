@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sample-statistics',
-    version='1.0',
+    version='1.0.1',
     description='A package for calculating weighted statistics on a set of samples.',
     long_description='For docs and more information, visit the Github repo at https://github.com/christegk/sample-statistics.',
     author='Christos Tegkelidis',
