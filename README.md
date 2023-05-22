@@ -7,7 +7,7 @@ The WeightedStatsCalculator class is a tool for storing samples and calculating 
 The WeightedStatsCalculator can be installed using pip:
 
 ```
-pip install xxx
+pip install sample-statistics
 ```
 
 The package is tested on Python 3.7, 3.8, 3.9 and 3.11.
@@ -17,7 +17,7 @@ The package is tested on Python 3.7, 3.8, 3.9 and 3.11.
 To use the WeightedStatsCalculator, you first need to create an instance of the WeightedStatsCalculator class. You can do this by importing the library and calling the constructor:
 
 ```
-from xxx import WeightedStatsCalculator
+from sample_statistics import WeightedStatsCalculator
 
 wsc = WeightedStatsCalculator()
 ```
@@ -107,7 +107,7 @@ This project uses the following third-party libraries:
 
 - [API Documentation](https://gits-15.sys.kth.se/grudat23/cteg-ovn7/blob/main/docs/_build/html/api.html)
 
-API Documentation[¶](#module-sample_statistics.main "Permalink to this heading")
+API Documentation
 ================================================================================
 The WeightedStatsCalculator class is a tool for storing samples and calculating their weighted statistics. It provides methods to add new samples, update existing samples, and retrieve the calculated statistics.
 
