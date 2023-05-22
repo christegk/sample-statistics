@@ -10,7 +10,9 @@ Welcome to sample-statistics's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   usage
    api
+
 
 Indices and tables
 ==================
