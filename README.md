@@ -93,9 +93,6 @@ In the example above the new sample provided has a different size than the store
 
 The package stores samples and their corresponding weights into a nested dictionary. Each sample is stored into a separate inner dictionary. The assigned key to a new sample corresponds to the current size of the nested dictionary (e.g. new key = number of stored samples - 1). In addition, the package calculates the weighted mean, weighted standard deviation and the standard error of the mean of each sample by using the DescrStatsW class from statsmodels. These statistics are stored in each inner dictionary. Every inner dictionary has the following keys: "sample", "weights", "weighted_mean", "weighted_std" and "standard_error_mean". 
 
-More on math?
-
-
 ## Requirements
 
 This project uses the following third-party libraries:
