@@ -103,10 +103,6 @@ This project uses the following third-party libraries:
 * NumPy for simple data handling and data transformations.
 * Statsmodels for calculating the weighted statistics.
 
-## Documentation
-
-- [API Documentation](https://gits-15.sys.kth.se/grudat23/cteg-ovn7/blob/main/docs/_build/html/api.html)
-
 API Documentation
 ================================================================================
 The WeightedStatsCalculator class is a tool for storing samples and calculating their weighted statistics. It provides methods to add new samples, update existing samples, and retrieve the calculated statistics.
