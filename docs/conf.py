@@ -9,7 +9,7 @@ import os
 import sys
 #sys.path.insert(0, '/home/chris/dd1327/homework7/cteg-ovn7')
 
-project = 'WeightedStatsCalculator'
+project = 'sample-statistics'
 copyright = '2023, Christos Tegkelidis'
 author = 'Christos Tegkelidis'
 
